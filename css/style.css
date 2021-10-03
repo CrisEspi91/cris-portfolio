@@ -46,7 +46,7 @@ nav ul li {
   list-style: none; }
 
 nav ul li a {
-  color: #2421c5;
+  color: #9cb414;
   font-size: 14px;
   font-weight: 500;
   text-decoration: none;
@@ -76,9 +76,9 @@ nav ul li a:hover {
   background: #dfe2dd; }
 
 .select {
-  background: #2421c5;
+  background: #8e8cf7;
   padding: 10px 20px;
-  color: #9cb414;
+  color: black;
   border-radius: 20px;
   transition: 1s; }
 

@@ -1,0 +1,100 @@
+header{
+    width: 100%;
+    height: 100px;
+    font-family: 'Poppins', sans-serif;  
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    transition: all  400ms;
+    background-color: black;
+}
+    
+
+    .container__header{
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+        padding: 0 20px;
+    }
+
+    header .logo{
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .logo h3{
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+        font-weight: 300;
+        letter-spacing: 2px;
+    }
+    
+    
+    .container__nav{
+        position: relative;
+        height: 100%;
+    }
+    nav{
+        height: 100%; /* para que ocupe todo el header y quede centrado*/
+    }
+    
+    nav ul{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    nav ul li{
+        margin: 0 30px;
+        list-style: none;
+    }
+    
+    nav ul li a{
+        color:rgb(36, 33, 197);
+        font-size: 14px;
+        font-weight: 500;
+        text-decoration: none;
+        transition: 0.5s;
+    }
+
+    nav ul li a:hover{
+        color: rgb(187, 187, 187) ;
+    }
+    
+    .nav_mod{
+        height: 70px;
+        box-shadow: 1px 1px 8px 1px rgb(36, 33, 197);
+        
+    }
+    .btn_menu{
+        width: 50px;
+        height: 50px;
+        color:rgb(228, 169, 61);
+        font-size: 20px;
+        cursor:pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        transition: 400ms;
+        display: none;
+    }
+    .btn_menu:hover{
+        background: rgb(223, 226, 221);
+    }
+    .select{
+        background: rgb(36, 33, 197);
+        padding: 10px 20px;
+        color: rgb(156, 180, 20);
+        border-radius: 20px;
+        transition: 1s;
+    }
+    .select:hover{
+        background-color: rgb(156, 180, 20);
+        color: white;
+    } 

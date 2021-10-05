@@ -57,7 +57,7 @@ nav ul li a:hover {
 
 .nav_mod {
   height: 70px;
-  box-shadow: 1px 1px 8px 1px #2421c5; }
+  box-shadow: 0.5px 0.5px 4px 0.5px #e4a93d; }
 
 .btn_menu {
   width: 50px;
@@ -76,9 +76,9 @@ nav ul li a:hover {
   background: #dfe2dd; }
 
 .select {
-  background: #8e8cf7;
+  background: #000025;
   padding: 10px 20px;
-  color: black;
+  color: #9cb414;
   border-radius: 20px;
   transition: 1s; }
 
@@ -139,11 +139,11 @@ footer {
   margin-right: 250px; }
 
 .titulo__portada h1, h2 {
-  color: #bbbbbb;
+  color: white;
   font-size: 40px; }
 
 .titulo__portada span {
-  color: #2421c5;
+  color: #9cb414;
   font-family: "oswald";
   font-weight: 500;
   font-size: 55px; }
@@ -166,15 +166,14 @@ body {
 .diploma img {
   margin-right: 30px; }
 
-.diploma a {
-  margin-left: 30px; }
-
 .cursos__img {
   width: 70px;
   background-color: white;
   border-radius: 50%; }
 
 .diploma a {
+  margin-left: 30px;
+  margin-top: 30px;
   font-size: 30px;
   transition: 0.5s;
   color: #9cb414; }
@@ -185,11 +184,22 @@ body {
 .diploma a:hover {
   color: #922cb1; }
 
+.card-container {
+  margin: 30px; }
+
+.cards {
+  display: flex;
+  justify-content: space-around; }
+
 .titulo {
   font-family: 'Oswald', sans-serif;
   font-size: 35px;
   font-weight: 300;
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+  background-color: rgba(0, 0, 37, 0.767);
+  display: inline-block;
+  padding: 0px 20px;
+  border-radius: 20%; }
 
 * {
   padding: 0;

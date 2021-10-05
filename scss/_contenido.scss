@@ -20,12 +20,12 @@
 }
 
 .titulo__portada h1,h2{
-    color:rgb(187, 187, 187);
+    color: white;
     font-size: 40px;
 }
 
 .titulo__portada span{
-    color:rgb(36, 33, 197);
+    color:rgb(156, 180, 20);
     font-family: "oswald";
     font-weight: 500;
     font-size: 55px;
@@ -39,6 +39,7 @@ body{
 .estudios-container{
     margin: 0 30px;
 }
+
 
 .diploma{
     margin-top: 30px;
@@ -54,10 +55,6 @@ body{
     margin-right: 30px;
 }
 
-.diploma a{
-    margin-left: 30px;
-}
-
 .cursos__img{
     width: 70px;
     background-color: white;
@@ -66,6 +63,8 @@ body{
 
 
 .diploma a{
+    margin-left: 30px;
+    margin-top: 30px;
     font-size: 30px;
     transition: 0.5s;
     color:rgb(156, 180, 20);
@@ -79,3 +78,10 @@ body{
     color:rgb(146, 44, 177);
 }
 
+.card-container{
+    margin: 30px;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+}

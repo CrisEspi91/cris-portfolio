@@ -83,5 +83,26 @@ body{
 }
 .cards{
     display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.card{
+    max-width: 300px;
+}
+
+
+.tools_slide{
+    margin-top: 80px;
+    display: flex;
     justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    height: 200px;
+    background-color: rgb(102, 102, 102) ;
+
+}
+
+.tools_slide i{
+    font-size: 70px;
 }

@@ -1,0 +1,31 @@
+@media  (max-width: 760px) {
+    //PORTADA
+    .portada{
+        height: 200px;
+    }
+    .titulo__portada{
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .titulo__portada h1, h2{
+        font-size: 25px;
+        text-align: center;
+    }
+    .titulo__portada span{
+        font-size: 30px;
+    }
+    //Dónde trabajo
+    .card-container{
+        text-align: center;
+    }
+    .cards{
+        justify-content: center;
+    }
+
+    //tools
+
+    .tools_slide i{
+        font-size: 35px;
+    }
+}

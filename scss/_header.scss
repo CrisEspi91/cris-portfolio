@@ -27,8 +27,8 @@ header{
     }
     
     .logo h3{
-        font-family: 'Oswald', sans-serif;
-        font-size: 30px;
+        font-family: 'Festive', cursive;
+        font-size: 40px;
         font-weight: 300;
         letter-spacing: 2px;
     }
@@ -55,7 +55,7 @@ header{
     }
     
     nav ul li a{
-        color:rgb(156, 180, 20);
+        color:rgb(190, 190, 190);
         font-size: 14px;
         font-weight: 500;
         text-decoration: none;
@@ -68,7 +68,7 @@ header{
     
     .nav_mod{
         height: 70px;
-        box-shadow: 0.5px 0.5px 4px 0.5px rgb(228, 169, 61);
+        box-shadow: 0.5px 0.5px 4px 0.5px rgb(156, 180, 20);
         
     }
     .btn_menu{
@@ -90,7 +90,7 @@ header{
     .select{
         background: rgb(0, 0, 37);
         padding: 10px 20px;
-        color:  rgb(156, 180, 20);
+        color:  rgb(207, 207, 207);
         border-radius: 20px;
         transition: 1s;
     }

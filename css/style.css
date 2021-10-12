@@ -6,7 +6,7 @@ header {
   top: 0;
   right: 0;
   z-index: 100;
-  transition: all  400ms;
+  transition: all  300ms;
   background-color: black; }
 
 .container__header {
@@ -31,6 +31,9 @@ header .logo {
   position: relative;
   height: 100%; }
 
+.move_content {
+  right: 160px; }
+
 nav {
   height: 100%;
   /* para que ocupe todo el header y quede centrado*/ }
@@ -53,7 +56,7 @@ nav ul li a {
   transition: 0.5s; }
 
 nav ul li a:hover {
-  color: #bbbbbb; }
+  color: white; }
 
 .nav_mod {
   height: 70px;
@@ -62,25 +65,24 @@ nav ul li a:hover {
 .btn_menu {
   width: 50px;
   height: 50px;
-  color: #e4a93d;
   font-size: 20px;
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  transition: 400ms;
+  transition: background 400ms;
   display: none; }
 
 .btn_menu:hover {
-  background: #dfe2dd; }
+  background: rgba(156, 180, 20, 0.253); }
 
 .select {
   background: #000025;
   padding: 10px 20px;
   color: #cfcfcf;
   border-radius: 20px;
-  transition: 1s; }
+  transition: 0.4s; }
 
 .select:hover {
   background-color: #9cb414;
@@ -103,7 +105,8 @@ footer {
   justify-content: space-around;
   align-items: center;
   width: 200px;
-  font-size: 30px; }
+  font-size: 30px;
+  flex-wrap: wrap; }
 
 .footer__contactos i {
   color: #9cb414;
@@ -126,7 +129,6 @@ footer {
 
 .video {
   position: relative;
-  z-index: -2;
   width: 100%;
   height: 300px;
   object-fit: cover;
@@ -149,10 +151,11 @@ footer {
   -webkit-text-stroke: 1px white; }
 
 .titulo__portada span {
-  color: #9cb414;
+  color: rgba(133, 255, 153, 0.698);
   font-family: "oswald";
-  font-weight: 500;
-  font-size: 55px; }
+  font-weight: 400;
+  font-size: 55px;
+  -webkit-text-stroke: 0px rgba(161, 255, 192, 0); }
 
 body {
   background-color: black; }
@@ -203,7 +206,6 @@ body {
   margin-top: 30px;
   max-width: 300px;
   padding: 30px;
-  background-color: rgba(0, 0, 37, 0.767);
   height: 150px;
   border-radius: 20px;
   text-align: center; }
@@ -240,6 +242,29 @@ body {
   border-radius: 20%; }
 
 @media (max-width: 760px) {
+  .container__header {
+    display: flex;
+    justify-content: space-between; }
+  .container__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .btn_menu {
+    display: flex; }
+  nav {
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    right: -160px;
+    padding: 0 40px;
+    transition: all 300ms; }
+  .move_nav {
+    right: 0px; }
+  nav ul {
+    flex-direction: column; }
+  nav ul li {
+    margin: 20px  0; }
   .titulo {
     text-align: center;
     display: block;
@@ -251,8 +276,6 @@ body {
     align-items: center;
     width: 100%; }
   .titulo__portada span {
-    color: #9cb414;
-    -webkit-text-stroke: 0.1px #9cb414;
     font-size: 40px; }
   .titulo__portada h1, h2 {
     font-size: 30px;

@@ -6,7 +6,7 @@ header{
     top: 0;
     right: 0;
     z-index: 100;
-    transition: all  400ms;
+    transition: all  300ms;
     background-color: black;
 }
     
@@ -38,6 +38,10 @@ header{
         position: relative;
         height: 100%;
     }
+
+    .move_content{
+        right: 160px;
+    }
     nav{
         height: 100%; /* para que ocupe todo el header y quede centrado*/
     }
@@ -63,7 +67,7 @@ header{
     }
 
     nav ul li a:hover{
-        color: rgb(187, 187, 187) ;
+        color: rgb(255, 255, 255) ;
     }
     
     .nav_mod{
@@ -74,27 +78,28 @@ header{
     .btn_menu{
         width: 50px;
         height: 50px;
-        color:rgb(228, 169, 61);
         font-size: 20px;
         cursor:pointer;
         display: flex;
         justify-content: center;
         align-items: center;
         border-radius: 50%;
-        transition: 400ms;
+        transition: background 400ms;
         display: none;
     }
     .btn_menu:hover{
-        background: rgb(223, 226, 221);
+        background: rgba(156, 180, 20, 0.253);
     }
     .select{
         background: rgb(0, 0, 37);
         padding: 10px 20px;
         color:  rgb(207, 207, 207);
         border-radius: 20px;
-        transition: 1s;
+        transition: 0.4s;
     }
     .select:hover{
         background-color: rgb(156, 180, 20);
         color: white;
     } 
+
+    

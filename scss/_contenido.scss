@@ -1,15 +1,12 @@
 .portada-container{
-    position: relative;
-   
+    height: 450px;
+    background-image: url(../assets/img/portada1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    border-bottom:solid 5px #9cb414;
 }
 
-.video{
-    position: relative;
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    margin-top: 100px;
-}
+
 
 
 
@@ -27,14 +24,14 @@
 .titulo__portada h1,h2{
     color: rgba(156, 180, 20, 0);
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 100;
     -webkit-text-stroke:1px rgb(255, 255, 255);
 }
 
 .titulo__portada span{
-    color:rgba(133, 255, 153, 0.698);
+    color:#9cb414;
     font-family: "oswald";
-    font-weight: 500;
+    font-weight: 100;
     font-size: 55px;
     -webkit-text-stroke:0px rgba(161, 255, 192, 0);
 }
@@ -44,7 +41,18 @@ body{
 }
 
 .estudios-container{
-    margin: 0 30px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  background-image: url(../assets/img/fondo-estudios.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  
+
+
 }
 
 
@@ -56,10 +64,15 @@ body{
     align-items: center;
     transition: 0.5s;
     padding: 30px;
+    width: 400px;
+    background-color: rgba(71, 71, 71, 0.575);
+    border-radius: 20px;
+    margin-bottom: 50px;
 }
 
 .diploma img{
     margin-right: 30px;
+    margin-bottom: 10px;
 }
 
 .cursos__img{
@@ -70,7 +83,7 @@ body{
 
 
 .diploma a{
-    margin-left: 30px;
+    margin-right: 30px;
     margin-top: 30px;
     font-size: 30px;
     transition: 0.5s;
@@ -82,12 +95,10 @@ body{
 }
 
 .diploma a:hover{
-    color:rgb(146, 44, 177);
+    color: white;
 }
 
-.card-container{
-    margin: 30px;
-}
+
 .cards{
     display: flex;
     justify-content: space-between;
